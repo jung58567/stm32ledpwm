@@ -22,6 +22,7 @@ void app(){
 	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
 	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
 	while(1){
+		//주석 추가
 		static int angleR =0;
 		static int angleG =120;
 		static int angleB =240;
